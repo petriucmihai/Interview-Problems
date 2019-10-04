@@ -48,13 +48,19 @@
     <Compile Include="LinkedLists\Problems\ReverseLinkedList.cs" />
     <Compile Include="LinkedLists\UtilityClasses\DLNode.cs" />
     <Compile Include="LinkedLists\UtilityClasses\Node.cs" />
-    <Compile Include="ModelingProblems\TicTacToe.cs" />
+    <Compile Include="ModelingProblems\Problems\TicTacToe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings\Problems\ReverseWordsInString3.cs" />
+    <Compile Include="TreesAndGraphs\UtilityClasses\Graph.cs" />
+    <Compile Include="TreesAndGraphs\UtilityClasses\TreeCreator.cs" />
+    <Compile Include="TreesAndGraphs\UtilityClasses\TreeNode.cs" />
+    <Compile Include="TreesAndGraphs\UtilityClasses\TreePrinter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="TreesAndGraphs\Problems\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
