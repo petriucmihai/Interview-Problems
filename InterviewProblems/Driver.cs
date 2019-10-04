@@ -10,6 +10,12 @@ namespace InterviewProblems
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Running interview problems here for testing:");
+
+
+
+            // Suspends console after problems are run
+            Console.Read();
         }
     }
 }
