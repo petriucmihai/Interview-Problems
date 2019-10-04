@@ -8,7 +8,7 @@ namespace InterviewProblems.ModelingProblems
 {
     class TicTacToe
     {
-        public int[,] board;
+        private int[,] board;
 
         /** Initialize your data structure here. */
         public TicTacToe(int n)
@@ -35,77 +35,123 @@ namespace InterviewProblems.ModelingProblems
 
             board[row, col] = player;
 
-            bool isWin = true;
+            int count = 0;
+
+            // Check horizontal
             for (int i = row; i < n; i++)
             {
-                if (board[i, col] != player)
+                if (board[i, col] == player)
                 {
-                    isWin = false;
+                    count++;
                 }
             }
 
-            if (isWin)
+
+            for (int i = row - 1; i >= 0; i--)
             {
-                for (int i = row; i > 0; i--)
+                if (board[i, col] == player)
                 {
-                    if (board[i, col] != player)
-                    {
-                        isWin = false;
-                    }
+                    count++;
                 }
             }
 
-            if (isWin)
-            {
-                for (int i = col; i < n; i++)
-                {
-                    if (board[row, i] != player)
-                    {
-                        isWin = false;
-                    }
-                }
-            }
-
-            if (isWin)
-            {
-                for (int i = col; i > 0; i--)
-                {
-                    if (board[row, i] != player)
-                    {
-                        isWin = false;
-                    }
-                }
-            }
-
-            if (isWin)
-            {
-                for (int i = row, j = col; i < n && j < n; i++, j++)
-                {
-                    if (board[row, col] != player)
-                    {
-                        isWin = false;
-                    }
-                }
-            }
-
-            if (isWin)
-            {
-                for (int i = row, j = col; i > 0 && j > 0; i--, j--)
-                {
-                    if (board[row, col] != player)
-                    {
-                        isWin = false;
-                    }
-                }
-            }
-
-            if (isWin)
+            if (count >= n)
             {
                 return player;
             }
             else
             {
-                return 0;
+                count = 0;
+            }
+
+
+            // Check vertical
+            for (int i = col; i < n; i++)
+            {
+                if (board[row, i] == player)
+                {
+                    count++;
+                }
+            }
+
+            for (int i = col - 1; i >= 0; i--)
+            {
+                if (board[row, i] == player)
+                {
+                    count++;
+                }
+            }
+
+            if (count >= n)
+            {
+                return player;
+            }
+            else
+            {
+                count = 0;
+            }
+
+            // Check diagonal right
+            for (int i = row, j = col; i < n && j < n; i++, j++)
+            {
+                if (board[i, j] == player)
+                {
+                    count++;
+                }
+            }
+
+            for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--)
+            {
+                if (board[i, j] == player)
+                {
+                    count++;
+                }
+            }
+
+            if (count >= n)
+            {
+                return player;
+            }
+            else
+            {
+                count = 0;
+            }
+
+            // Check diagonal left
+            for (int i = row, j = col; i < n && j >= 0; i++, j--)
+            {
+                if (board[i, j] == player)
+                {
+                    count++;
+                }
+            }
+
+            for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++)
+            {
+                if (board[i, j] == player)
+                {
+                    count++;
+                }
+            }
+
+            if (count >= n)
+            {
+                return player;
+            }
+
+            return 0;
+        }
+
+        public void PrintBoard()
+        {
+            int n = board.GetLength(0);
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    Console.Write(board[i, j] + " ");
+                }
+                Console.WriteLine();
             }
         }
     }
