@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\Problems\TwoSum.cs" />
     <Compile Include="Driver.cs" />
     <Compile Include="LinkedLists\Problems\ReverseLinkedList.cs" />
     <Compile Include="LinkedLists\UtilityClasses\DLNode.cs" />
