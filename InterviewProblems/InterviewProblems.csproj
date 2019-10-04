@@ -51,6 +51,7 @@
     <Compile Include="ModelingProblems\Problems\TicTacToe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings\Problems\ReverseWordsInString3.cs" />
+    <Compile Include="TreesAndGraphs\Problems\BinaryTreeZigZagTraversal.cs" />
     <Compile Include="TreesAndGraphs\UtilityClasses\Graph.cs" />
     <Compile Include="TreesAndGraphs\UtilityClasses\TreeCreator.cs" />
     <Compile Include="TreesAndGraphs\UtilityClasses\TreeNode.cs" />
@@ -59,8 +60,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="TreesAndGraphs\Problems\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

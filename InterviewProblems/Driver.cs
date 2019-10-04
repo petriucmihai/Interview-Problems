@@ -16,6 +16,7 @@ namespace InterviewProblems
         {
             Console.WriteLine("Running interview problems here for testing:");
 
+            /*
             // TicTacToe
             int n = 3;
             Console.WriteLine("Starting TicTacToe with board size: " + n);
@@ -48,6 +49,11 @@ namespace InterviewProblems
             game2.PrintBoard();
             Console.WriteLine(game2.Move(1, 0, 1));
             game2.PrintBoard();
+            */
+
+            // ZigZag binary tree traversal
+
+
 
 
             // Suspends console after problems are run
