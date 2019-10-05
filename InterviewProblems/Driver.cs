@@ -7,6 +7,8 @@ using InterviewProblems.Arrays;
 using InterviewProblems.LinkedLists;
 using InterviewProblems.ModelingProblems;
 using InterviewProblems.Strings;
+using InterviewProblems.TreesAndGraphs.Problems;
+using InterviewProblems.TreesAndGraphs.UtilityClasses;
 
 namespace InterviewProblems
 {
@@ -52,9 +54,24 @@ namespace InterviewProblems
             */
 
             // ZigZag binary tree traversal
+            Console.Write("Starting Tree:");
+            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            TreeNode root = CreateBSTFromSortedArray.CreateBST(arr);
+            TreePrinter.Print(root);
 
+            Console.WriteLine();
 
+            IList<IList<int>> result = BinaryTreeZigZagTraversal.ZigzagLevelOrder(root);
 
+            for (int i = 0; i < result.Count; i++)
+            {
+                Console.Write("[ ");
+                for (int j = 0; j < result[i].Count; j++)
+                {
+                    Console.Write(result[i][j] + " ");
+                }
+                Console.WriteLine("]");
+            }
 
             // Suspends console after problems are run
             Console.Read();

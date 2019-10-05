@@ -9,35 +9,51 @@ namespace InterviewProblems.TreesAndGraphs.Problems
 {
     class BinaryTreeZigZagTraversal
     {
-        public IList<IList<int>> ZigzagLevelOrder(TreeNode root)
+        public static IList<IList<int>> ZigzagLevelOrder(TreeNode root)
         {
             List<IList<int>> result = new List<IList<int>>();
 
             List<TreeNode> current = new List<TreeNode>();
-            List<TreeNode> parents = new List<TreeNode>();
-            current.Add(root);
+            if (root != null)
+            {
+                current.Add(root);
+                result.Add(new List<int> { root.val });
+            }
 
-            result.Add(new List<int> { root.val });
+            bool zigzag = false;
 
             while (current.Count() > 0)
             {
-                parents = current;
-                current.Clear();
+                List<TreeNode> parents = current;
+                current = new List<TreeNode>();
 
                 List<int> levelValues = new List<int>();
 
                 for (int i = 0; i < parents.Count(); i++)
                 {
-                    current.Add(parents[i].left);
-                    levelValues.Add(parents[i].left.val);
-                    current.Add(parents[i].right);
-                    levelValues.Add(parents[i].right.val);
+                    if (parents[i].left != null)
+                        current.Add(parents[i].left);
+
+                    if (parents[i].right != null)
+                        current.Add(parents[i].right);
                 }
 
-                if (levelValues.Count() > 0)
+                if (zigzag)
                 {
-                    result.Add(levelValues);
+                    for (int i = 0; i < current.Count(); i++)
+                        levelValues.Add(current[i].val);
                 }
+                else
+                {
+                    for (int i = current.Count() - 1; i >= 0; i--)
+                        levelValues.Add(current[i].val);
+                }
+                
+
+                if (levelValues.Count() > 0)
+                    result.Add(levelValues);
+
+                zigzag = !zigzag;
             }
 
             return result;
