@@ -50,6 +50,7 @@
     <Compile Include="LinkedLists\UtilityClasses\Node.cs" />
     <Compile Include="ModelingProblems\Problems\TicTacToe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StacksAndQueues\Problems\QueueUsingStacks.cs" />
     <Compile Include="Strings\Problems\ReverseWordsInString3.cs" />
     <Compile Include="TreesAndGraphs\Problems\BinaryTreeZigZagTraversal.cs" />
     <Compile Include="TreesAndGraphs\Problems\CreateBSTFromSortedArray.cs" />
