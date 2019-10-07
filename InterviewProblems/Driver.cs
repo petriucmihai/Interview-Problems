@@ -9,6 +9,7 @@ using InterviewProblems.ModelingProblems;
 using InterviewProblems.Strings;
 using InterviewProblems.TreesAndGraphs.Problems;
 using InterviewProblems.TreesAndGraphs.UtilityClasses;
+using InterviewProblems.Permutations.Problems;
 
 namespace InterviewProblems
 {
@@ -53,6 +54,7 @@ namespace InterviewProblems
             game2.PrintBoard();
             */
 
+            /*
             // ZigZag binary tree traversal
             Console.Write("Starting Tree:");
             int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -71,6 +73,27 @@ namespace InterviewProblems
                     Console.Write(result[i][j] + " ");
                 }
                 Console.WriteLine("]");
+            }
+            */
+
+            // Generate Valid Parentheses
+            int n = 3;
+            Console.WriteLine("Valid Parentheses for n =" + n);
+            List<string> validParensBF = GenerateValidParentheses.GenerateParenthesisBruteForce(n);
+            List<string> validParensBK = GenerateValidParentheses.GenerateParenthesisBacktracking(n);
+
+            Console.WriteLine("Brute Force:");
+            foreach (string paren in validParensBF)
+            {
+                Console.WriteLine(paren);
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine("Backtracking:");
+            foreach (string paren in validParensBK)
+            {
+                Console.WriteLine(paren);
             }
 
             // Suspends console after problems are run
