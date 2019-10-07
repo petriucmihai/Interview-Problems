@@ -56,6 +56,7 @@
     <Compile Include="Strings\Problems\ReverseWordsInString3.cs" />
     <Compile Include="TreesAndGraphs\Problems\BinaryTreeZigZagTraversal.cs" />
     <Compile Include="TreesAndGraphs\Problems\CreateBSTFromSortedArray.cs" />
+    <Compile Include="TreesAndGraphs\Problems\IsSameTree.cs" />
     <Compile Include="TreesAndGraphs\UtilityClasses\Graph.cs" />
     <Compile Include="TreesAndGraphs\UtilityClasses\TreeCreator.cs" />
     <Compile Include="TreesAndGraphs\UtilityClasses\TreeNode.cs" />
