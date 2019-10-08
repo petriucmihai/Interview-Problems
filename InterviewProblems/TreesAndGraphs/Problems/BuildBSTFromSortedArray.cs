@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InterviewProblems.TreesAndGraphs.Problems
 {
-    class CreateBSTFromSortedArray
+    class BuildBSTFromSortedArray
     {
         public static TreeNode CreateBST(int[] arr)
         {
