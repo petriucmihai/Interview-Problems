@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\Problems\TwoSum.cs" />
+    <Compile Include="BitManipulation\Problems\DecimalToBinary.cs" />
     <Compile Include="Driver.cs" />
     <Compile Include="LinkedLists\Problems\ReverseLinkedList.cs" />
     <Compile Include="LinkedLists\UtilityClasses\DLNode.cs" />
