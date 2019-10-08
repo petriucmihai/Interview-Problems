@@ -76,6 +76,7 @@ namespace InterviewProblems
             }
             */
 
+            /*
             // Generate Valid Parentheses
             int n = 3;
             Console.WriteLine("Valid Parentheses for n =" + n);
@@ -95,6 +96,12 @@ namespace InterviewProblems
             {
                 Console.WriteLine(paren);
             }
+            */
+
+            // Create Trees from arrays
+            int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            TreeNode node = BuildTreeFromArray.BuildCompleteTree(arr);
+            TreePrinter.Print(node);
 
             // Suspends console after problems are run
             Console.Read();
