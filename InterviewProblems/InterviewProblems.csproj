@@ -48,6 +48,7 @@
     <Compile Include="Arrays\Problems\ProductOfArrayWithoutSelf.cs" />
     <Compile Include="Arrays\Problems\TwoSum.cs" />
     <Compile Include="BitManipulation\Problems\DecimalToBinary.cs" />
+    <Compile Include="BitManipulation\Problems\InsertBits.cs" />
     <Compile Include="Driver.cs" />
     <Compile Include="LinkedLists\Problems\AddAsNumbers.cs" />
     <Compile Include="LinkedLists\Problems\CheckPalindrome.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="LinkedLists\Problems\SeparateAroundPartition.cs" />
     <Compile Include="LinkedLists\UtilityClasses\DLNode.cs" />
     <Compile Include="LinkedLists\UtilityClasses\Node.cs" />
+    <Compile Include="ModelingProblems\Problems\8Queens.cs" />
     <Compile Include="ModelingProblems\Problems\ClimbingSteps.cs" />
     <Compile Include="ModelingProblems\Problems\NumberOfIslands.cs" />
     <Compile Include="ModelingProblems\Problems\TicTacToe.cs" />
