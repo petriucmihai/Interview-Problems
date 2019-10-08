@@ -87,6 +87,7 @@
     <Compile Include="TreesAndGraphs\Problems\ListOfNodeAtEachLevel.cs" />
     <Compile Include="TreesAndGraphs\Problems\LowestCommonAncestor.cs" />
     <Compile Include="TreesAndGraphs\Problems\MergeTrees.cs" />
+    <Compile Include="TreesAndGraphs\Problems\TraversalWithStack.cs" />
     <Compile Include="TreesAndGraphs\Problems\UnivaluedTree.cs" />
     <Compile Include="TreesAndGraphs\Problems\ValidateBST.cs" />
     <Compile Include="TreesAndGraphs\UtilityClasses\Graph.cs" />
