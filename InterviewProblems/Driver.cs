@@ -10,6 +10,7 @@ using InterviewProblems.Strings;
 using InterviewProblems.TreesAndGraphs.Problems;
 using InterviewProblems.TreesAndGraphs.UtilityClasses;
 using InterviewProblems.Permutations.Problems;
+using InterviewProblems.Arrays.Problems;
 
 namespace InterviewProblems
 {
@@ -98,10 +99,28 @@ namespace InterviewProblems
             }
             */
 
+            /*
             // Create Trees from arrays
             int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             TreeNode node = BuildTreeFromArray.BuildCompleteTree(arr);
             TreePrinter.Print(node);
+            */
+
+            // 3-Sum
+            int[] array = new int[] { -1, 0, 1, 2, -1, -4 };
+
+            IList<IList<int>> result = ThreeSum.Sum(array);
+
+            Console.WriteLine("Result sets:");
+            foreach (IList<int> list in result)
+            {
+                Console.Write("[ ");
+                foreach (int num in list)
+                {
+                    Console.Write(num + ", ");
+                }
+                Console.WriteLine("]");
+            }
 
             // Suspends console after problems are run
             Console.Read();
