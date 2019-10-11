@@ -78,6 +78,7 @@
     <Compile Include="Strings\Problems\ArePermutations.cs" />
     <Compile Include="Strings\Problems\ReverseString.cs" />
     <Compile Include="Strings\Problems\ReverseWordsInString3.cs" />
+    <Compile Include="Strings\Problems\StringCompression.cs" />
     <Compile Include="Strings\Problems\URLifyString.cs" />
     <Compile Include="Strings\Problems\ValidPalindrome.cs" />
     <Compile Include="TreesAndGraphs\Problems\BinaryTreeZigZagTraversal.cs" />
