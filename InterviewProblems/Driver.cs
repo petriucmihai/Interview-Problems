@@ -11,6 +11,7 @@ using InterviewProblems.TreesAndGraphs.Problems;
 using InterviewProblems.TreesAndGraphs.UtilityClasses;
 using InterviewProblems.Permutations.Problems;
 using InterviewProblems.Arrays.Problems;
+using InterviewProblems.SearchingAndSorting.Problems;
 
 namespace InterviewProblems
 {
@@ -106,6 +107,7 @@ namespace InterviewProblems
             TreePrinter.Print(node);
             */
 
+            /*
             // 3-Sum
             int[] array = new int[] { -1, 0, 1, 2, -1, -4 };
 
@@ -121,6 +123,12 @@ namespace InterviewProblems
                 }
                 Console.WriteLine("]");
             }
+            */
+
+            // Search sorted rotated array
+            int[] rotatedArray = new int[] { 1, 3 };//, 5, 6, 7, 0, 1, 2 };
+
+            SearchRotatedArray.Search(rotatedArray, 0);
 
             // Suspends console after problems are run
             Console.Read();

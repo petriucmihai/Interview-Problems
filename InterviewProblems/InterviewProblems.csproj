@@ -46,6 +46,7 @@
     <Compile Include="Arrays\Problems\ArrayElementsAreUnique.cs" />
     <Compile Include="Arrays\Problems\BuyStock.cs" />
     <Compile Include="Arrays\Problems\MaximumSubarray.cs" />
+    <Compile Include="Arrays\Problems\MergeOverlappingIntervals.cs" />
     <Compile Include="Arrays\Problems\ProductOfArrayWithoutSelf.cs" />
     <Compile Include="Arrays\Problems\ThreeSum.cs" />
     <Compile Include="Arrays\Problems\TwoSum.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="LinkedLists\UtilityClasses\Node.cs" />
     <Compile Include="ModelingProblems\Problems\8Queens.cs" />
     <Compile Include="ModelingProblems\Problems\ClimbingSteps.cs" />
+    <Compile Include="ModelingProblems\Problems\MeetingRooms.cs" />
     <Compile Include="ModelingProblems\Problems\NumberOfIslands.cs" />
     <Compile Include="ModelingProblems\Problems\TicTacToe.cs" />
     <Compile Include="ModelingProblems\Problems\TrapRainWater.cs" />
@@ -71,6 +73,7 @@
     <Compile Include="Permutations\Problems\GenerateValidParentheses.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchingAndSorting\Problems\MergeSortedArrays.cs" />
+    <Compile Include="SearchingAndSorting\Problems\SearchRotatedArray.cs" />
     <Compile Include="SearchingAndSorting\SortingAlgorithms\MergeSort.cs" />
     <Compile Include="SearchingAndSorting\SortingAlgorithms\QuickSort.cs" />
     <Compile Include="StacksAndQueues\Problems\QueueUsingStacks.cs" />
