@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Arrays\Problems\ArrayElementsAreUnique.cs" />
     <Compile Include="Arrays\Problems\BuyStock.cs" />
+    <Compile Include="Arrays\Problems\MaximumSubarray.cs" />
     <Compile Include="Arrays\Problems\ProductOfArrayWithoutSelf.cs" />
     <Compile Include="Arrays\Problems\ThreeSum.cs" />
     <Compile Include="Arrays\Problems\TwoSum.cs" />
