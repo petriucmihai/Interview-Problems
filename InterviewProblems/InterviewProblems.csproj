@@ -48,6 +48,7 @@
     <Compile Include="Arrays\Problems\MaximumSubarray.cs" />
     <Compile Include="Arrays\Problems\MergeOverlappingIntervals.cs" />
     <Compile Include="Arrays\Problems\ProductOfArrayWithoutSelf.cs" />
+    <Compile Include="Arrays\Problems\RotateSquareMatrix.cs" />
     <Compile Include="Arrays\Problems\ThreeSum.cs" />
     <Compile Include="Arrays\Problems\TwoSum.cs" />
     <Compile Include="BitManipulation\Problems\DecimalToBinary.cs" />
