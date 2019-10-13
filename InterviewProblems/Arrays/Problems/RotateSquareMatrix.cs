@@ -47,31 +47,32 @@ namespace InterviewProblems.Arrays.Problems
           [14, 3, 4, 1],
           [12, 6, 8, 9],
           [16, 7,10,11]
-]
+        ]
         */
 
         public static void Rotate(int[][] matrix)
         {
             int n = matrix.Length;
-            for (int x = 0; x < n / 2; x++)
+            for (int i = 0; i < (n + 1) / 2; i++)
             {
-                for (int y = x; y < n - x - 1; y++)
+                for (int j = 0; j < n/2; j++)
                 {
-                    int temp = matrix[x][y];
+                    int temp = matrix[n - 1 - j][i];
 
-                    // bottom left to top left
-                    matrix[x][y] = matrix[n - x - 1][y];
+                    // bottom right moves to bottom left
+                    matrix[n - 1 - j][i] = matrix[n - 1 - i][n - 1 - j];
 
-                    // bottom right to bottom left
-                    matrix[n - x - 1][y] = matrix[n - x - 1][n - y - 1];
+                    // top right moves to bottom left
+                    matrix[n - 1 - i][n - 1 - j] = matrix[j][n - 1 - i];
 
-                    // top right to bottom right
-                    matrix[n - x - 1][n - y - 1] = matrix[x][n - y - 1];
+                    // top left moves to top right
+                    matrix[j][n - 1 - i] = matrix[i][j];
 
-                    // top left to top right
-                    matrix[x][n - y - 1] = temp;
+                    // top right moves to bottom right
+                    matrix[i][j] = temp;
                 }
             }
+            // Note: [i][j] for horizontally moving rectangles, [j][i] for vertical ones
         }
     }
 }
