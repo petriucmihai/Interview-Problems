@@ -12,6 +12,7 @@ using InterviewProblems.TreesAndGraphs.UtilityClasses;
 using InterviewProblems.Permutations.Problems;
 using InterviewProblems.Arrays.Problems;
 using InterviewProblems.SearchingAndSorting.Problems;
+using InterviewProblems.Strings.Problems;
 
 namespace InterviewProblems
 {
@@ -131,20 +132,14 @@ namespace InterviewProblems
             SearchRotatedArray.Search(rotatedArray, 0);
             */
 
+            /*
             // Rotate square matrix
-            ///*
+
             int[][] matrix = new int[3][];
             matrix[0] = new int[] { 1, 2, 3 };
             matrix[1] = new int[] { 4, 5, 6 };
             matrix[2] = new int[] { 7, 8, 9 };
-            //*/
-            /*
-            int[][] matrix = new int[4][];
-            matrix[0] = new int[] { 1, 2, 3, 4 };
-            matrix[1] = new int[] { 5, 6, 7, 8 };
-            matrix[2] = new int[] { 9, 10, 11, 12 };
-            matrix[3] = new int[] { 13, 14, 15, 16 };
-            */
+
             Console.WriteLine("Before Rotation");
             foreach (int[] row in matrix)
             {
@@ -171,6 +166,10 @@ namespace InterviewProblems
                 }
                 Console.WriteLine("]");
             }
+            */
+
+            // Reverse Words in String
+            Console.WriteLine(ReverseWordsInString.ReverseWords("a good   example"));
 
 
             // Suspends console after problems are run
