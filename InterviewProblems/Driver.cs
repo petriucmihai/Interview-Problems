@@ -169,8 +169,9 @@ namespace InterviewProblems
             */
 
             // Reverse Words in String
-            Console.WriteLine(ReverseWordsInString.ReverseWords("a good   example"));
+            //Console.WriteLine(ReverseWordsInString.ReverseWords("a good   example"));
 
+            GeneratePermutationsOfAString.PrintPermutations("ABC");
 
             // Suspends console after problems are run
             Console.Read();

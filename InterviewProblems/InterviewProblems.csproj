@@ -72,6 +72,7 @@
     <Compile Include="ModelingProblems\Problems\TicTacToe.cs" />
     <Compile Include="ModelingProblems\Problems\TrapRainWater.cs" />
     <Compile Include="Numbers\Problems\ReverseInteger.cs" />
+    <Compile Include="Permutations\Problems\GeneratePermutationsOfAString.cs" />
     <Compile Include="Permutations\Problems\GenerateValidParentheses.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchingAndSorting\Problems\MergeSortedArrays.cs" />
