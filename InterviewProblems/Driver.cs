@@ -171,7 +171,8 @@ namespace InterviewProblems
             // Reverse Words in String
             //Console.WriteLine(ReverseWordsInString.ReverseWords("a good   example"));
 
-            GeneratePermutationsOfAString.PrintPermutations("ABC");
+            int[] arr = new int[] { 1, 2, 3, 4 };
+            GeneratePermutationsOfArray.PrintArrayPermutations(arr);
 
             // Suspends console after problems are run
             Console.Read();
