@@ -49,6 +49,7 @@
     <Compile Include="Arrays\Problems\MergeOverlappingIntervals.cs" />
     <Compile Include="Arrays\Problems\ProductOfArrayWithoutSelf.cs" />
     <Compile Include="Arrays\Problems\RotateSquareMatrix.cs" />
+    <Compile Include="Arrays\Problems\SecondSmallestElement.cs" />
     <Compile Include="Arrays\Problems\SpiralMatrix.cs" />
     <Compile Include="Arrays\Problems\ThreeSum.cs" />
     <Compile Include="Arrays\Problems\TwoSum.cs" />
@@ -111,6 +112,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DataStructures\Heap\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
