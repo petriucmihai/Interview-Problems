@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Arrays\Problems\ArrayElementsAreUnique.cs" />
     <Compile Include="Arrays\Problems\BuyStock.cs" />
+    <Compile Include="Arrays\Problems\FirstNonRepeatingElement.cs" />
     <Compile Include="Arrays\Problems\MaximumSubarray.cs" />
     <Compile Include="Arrays\Problems\MergeOverlappingIntervals.cs" />
     <Compile Include="Arrays\Problems\ProductOfArrayWithoutSelf.cs" />
