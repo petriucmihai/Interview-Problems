@@ -103,6 +103,7 @@
     <Compile Include="TreesAndGraphs\Problems\IsMirror.cs" />
     <Compile Include="TreesAndGraphs\Problems\IsSameTree.cs" />
     <Compile Include="TreesAndGraphs\Problems\IsSubtree.cs" />
+    <Compile Include="TreesAndGraphs\Problems\KthLargestElementInBST.cs" />
     <Compile Include="TreesAndGraphs\Problems\ListOfNodeAtEachLevel.cs" />
     <Compile Include="TreesAndGraphs\Problems\LowestCommonAncestor.cs" />
     <Compile Include="TreesAndGraphs\Problems\MergeTrees.cs" />
