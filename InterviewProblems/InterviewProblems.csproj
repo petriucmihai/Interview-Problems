@@ -49,6 +49,7 @@
     <Compile Include="Arrays\Problems\MaximumSubarray.cs" />
     <Compile Include="Arrays\Problems\MergeOverlappingIntervals.cs" />
     <Compile Include="Arrays\Problems\ProductOfArrayWithoutSelf.cs" />
+    <Compile Include="Arrays\Problems\RearrangePositivesAndNegatives.cs" />
     <Compile Include="Arrays\Problems\RotateSquareMatrix.cs" />
     <Compile Include="Arrays\Problems\SecondSmallestElement.cs" />
     <Compile Include="Arrays\Problems\SpiralMatrix.cs" />
