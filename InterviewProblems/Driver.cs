@@ -171,6 +171,7 @@ namespace InterviewProblems
             // Reverse Words in String
             //Console.WriteLine(ReverseWordsInString.ReverseWords("a good   example"));
 
+            /*
             // Find Kth largest element in BST
             Console.Write("Starting Tree:");
             int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -181,6 +182,7 @@ namespace InterviewProblems
 
             int k = 2;
             Console.WriteLine(k + "th largest element in tree: " + KthLargestElementInBST.FindKthLargestElementInBST(root, k));
+            */
 
             // Suspends console after problems are run
             Console.Read();
