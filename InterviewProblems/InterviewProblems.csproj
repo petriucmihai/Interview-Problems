@@ -84,6 +84,7 @@
     <Compile Include="SearchingAndSorting\SortingAlgorithms\MergeSort.cs" />
     <Compile Include="SearchingAndSorting\SortingAlgorithms\QuickSort.cs" />
     <Compile Include="StacksAndQueues\Problems\QueueUsingStacks.cs" />
+    <Compile Include="StacksAndQueues\Problems\ReverseQueue.cs" />
     <Compile Include="StacksAndQueues\Problems\SortAStack.cs" />
     <Compile Include="StacksAndQueues\Problems\StackUsingQueue.cs" />
     <Compile Include="Strings\Problems\ArePermutations.cs" />
