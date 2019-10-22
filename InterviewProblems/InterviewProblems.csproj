@@ -61,6 +61,7 @@
     <Compile Include="LinkedLists\Problems\AddAsNumbers.cs" />
     <Compile Include="LinkedLists\Problems\CheckPalindrome.cs" />
     <Compile Include="LinkedLists\Problems\DeleteCurrentNode.cs" />
+    <Compile Include="LinkedLists\Problems\DetectLoop.cs" />
     <Compile Include="LinkedLists\Problems\FindKthToLastElement.cs" />
     <Compile Include="LinkedLists\Problems\RemoveDuplicates.cs" />
     <Compile Include="LinkedLists\Problems\ReverseLinkedList.cs" />
