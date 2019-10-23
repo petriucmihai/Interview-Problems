@@ -28,11 +28,6 @@ namespace InterviewProblems.TreesAndGraphs.Problems
             }
         }
 
-        public static bool CheckBalancedTreeOptimized(TreeNode root)
-        {
-            return CheckHeight(root) != Int32.MinValue;
-        }
-
         private static int GetHeight(TreeNode node)
         {
             if (node == null)
@@ -41,6 +36,11 @@ namespace InterviewProblems.TreesAndGraphs.Problems
             }
 
             return Math.Max(GetHeight(node.left), GetHeight(node.left)) + 1;
+        }
+
+        public static bool CheckBalancedTreeOptimized(TreeNode root)
+        {
+            return CheckHeight(root) != Int32.MinValue;
         }
 
         private static int CheckHeight(TreeNode node)

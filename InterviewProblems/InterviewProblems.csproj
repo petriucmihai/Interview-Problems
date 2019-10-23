@@ -93,6 +93,7 @@
     <Compile Include="Strings\Problems\ReverseWordsInString.cs" />
     <Compile Include="Strings\Problems\ReverseWordsInString3.cs" />
     <Compile Include="Strings\Problems\StringCompression.cs" />
+    <Compile Include="Strings\Problems\SubstringInAString.cs" />
     <Compile Include="Strings\Problems\URLifyString.cs" />
     <Compile Include="Strings\Problems\ValidPalindrome.cs" />
     <Compile Include="TreesAndGraphs\Problems\BinaryTreeZigZagTraversal.cs" />
