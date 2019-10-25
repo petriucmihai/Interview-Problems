@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\KClosestPointsToOrigin.cs" />
     <Compile Include="Arrays\Problems\ArrayElementsAreUnique.cs" />
     <Compile Include="Arrays\Problems\BuyStock.cs" />
     <Compile Include="Arrays\Problems\FirstNonRepeatingElement.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchingAndSorting\Problems\MergeSortedArrays.cs" />
     <Compile Include="SearchingAndSorting\Problems\SearchRotatedArray.cs" />
+    <Compile Include="SearchingAndSorting\SearchAlgorithms\BinarySearch.cs" />
     <Compile Include="SearchingAndSorting\SortingAlgorithms\MergeSort.cs" />
     <Compile Include="SearchingAndSorting\SortingAlgorithms\QuickSort.cs" />
     <Compile Include="StacksAndQueues\Problems\QueueUsingStacks.cs" />
