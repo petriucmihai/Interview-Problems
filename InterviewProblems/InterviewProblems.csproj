@@ -84,6 +84,7 @@
     <Compile Include="SearchingAndSorting\Problems\MergeSortedArrays.cs" />
     <Compile Include="SearchingAndSorting\Problems\SearchRotatedArray.cs" />
     <Compile Include="SearchingAndSorting\SearchAlgorithms\BinarySearch.cs" />
+    <Compile Include="SearchingAndSorting\SearchAlgorithms\QuickSelect.cs" />
     <Compile Include="SearchingAndSorting\SortingAlgorithms\MergeSort.cs" />
     <Compile Include="SearchingAndSorting\SortingAlgorithms\QuickSort.cs" />
     <Compile Include="StacksAndQueues\Problems\QueueUsingStacks.cs" />

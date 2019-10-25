@@ -12,7 +12,9 @@ using InterviewProblems.TreesAndGraphs.UtilityClasses;
 using InterviewProblems.Permutations.Problems;
 using InterviewProblems.Arrays.Problems;
 using InterviewProblems.SearchingAndSorting.Problems;
+using InterviewProblems.SearchingAndSorting.SortingAlgorithms;
 using InterviewProblems.Strings.Problems;
+using InterviewProblems.SearchingAndSorting.SearchAlgorithms;
 
 namespace InterviewProblems
 {
@@ -183,6 +185,40 @@ namespace InterviewProblems
             int k = 2;
             Console.WriteLine(k + "th largest element in tree: " + KthLargestElementInBST.FindKthLargestElementInBST(root, k));
             */
+
+            // QuickSelect
+            int k = 3;
+            Console.WriteLine("Find " + k + "th largest element");
+
+            Console.WriteLine();
+
+            int[] arr = new int[] { 3, 2, 1, 5, 6, 4 };
+            int[] sortedArr = new int[] { 3, 2, 1, 5, 6, 4 };
+            Console.WriteLine("Unsorted Array: ");
+            Console.Write("[ ");
+            foreach (int num in arr)
+            {
+                Console.Write(num + ", ");
+            }
+            Console.WriteLine("]");
+
+            QuickSort.QuickSortInt(sortedArr);
+
+            Console.WriteLine();
+
+            Console.WriteLine("Sorted Array: ");
+            Console.Write("[ ");
+            foreach (int num in sortedArr)
+            {
+                Console.Write(num + ", ");
+            }
+            Console.WriteLine("]");
+
+            Console.WriteLine();
+
+            Console.WriteLine(k + "th largest element is: " + QuickSelect.FindKthSmallestElement(arr, arr.Length - k));
+
+
 
             // Suspends console after problems are run
             Console.Read();
