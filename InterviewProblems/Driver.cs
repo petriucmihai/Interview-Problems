@@ -186,6 +186,7 @@ namespace InterviewProblems
             Console.WriteLine(k + "th largest element in tree: " + KthLargestElementInBST.FindKthLargestElementInBST(root, k));
             */
 
+            /*
             // QuickSelect
             int k = 3;
             Console.WriteLine("Find " + k + "th largest element");
@@ -217,7 +218,7 @@ namespace InterviewProblems
             Console.WriteLine();
 
             Console.WriteLine(k + "th largest element is: " + QuickSelect.FindKthSmallestElement(arr, arr.Length - k));
-
+            */
 
 
             // Suspends console after problems are run
