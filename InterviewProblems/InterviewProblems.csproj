@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arrays\KClosestPointsToOrigin.cs" />
+    <Compile Include="Arrays\Problems\KClosestPointsToOrigin.cs" />
     <Compile Include="Arrays\Problems\ArrayElementsAreUnique.cs" />
     <Compile Include="Arrays\Problems\BuyStock.cs" />
     <Compile Include="Arrays\Problems\FirstNonRepeatingElement.cs" />
@@ -57,6 +57,7 @@
     <Compile Include="Arrays\Problems\ThreeSum.cs" />
     <Compile Include="Arrays\Problems\TwoSum.cs" />
     <Compile Include="BitManipulation\Problems\DecimalToBinary.cs" />
+    <Compile Include="BitManipulation\Problems\HammingDistance.cs" />
     <Compile Include="BitManipulation\Problems\InsertBits.cs" />
     <Compile Include="Driver.cs" />
     <Compile Include="LinkedLists\Problems\AddAsNumbers.cs" />
