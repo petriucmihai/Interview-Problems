@@ -114,6 +114,7 @@
     <Compile Include="TreesAndGraphs\Problems\BuildTreeFromArray.cs" />
     <Compile Include="TreesAndGraphs\Problems\CheckBalanced.cs" />
     <Compile Include="TreesAndGraphs\Problems\BuildBSTFromSortedArray.cs" />
+    <Compile Include="TreesAndGraphs\Problems\CousinsInTree.cs" />
     <Compile Include="TreesAndGraphs\Problems\DiameterOfTree.cs" />
     <Compile Include="TreesAndGraphs\Problems\HeightOfTree.cs" />
     <Compile Include="TreesAndGraphs\Problems\IsMirror.cs" />
