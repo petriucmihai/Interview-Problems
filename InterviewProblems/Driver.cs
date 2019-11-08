@@ -220,6 +220,26 @@ namespace InterviewProblems
             Console.WriteLine(k + "th largest element is: " + QuickSelect.FindKthSmallestElement(arr, arr.Length - k));
             */
 
+            /*
+            // Combination Sum
+            int[] array = new int[] { 2, 3, 6, 7 };
+            int target = 7;
+
+            IList<IList<int>> result = CombinationSum.FindCombinationSum(array, target);
+
+            Console.WriteLine("Result sets:");
+            foreach (IList<int> list in result)
+            {
+                Console.Write("[ ");
+                foreach (int num in list)
+                {
+                    Console.Write(num + ", ");
+                }
+                Console.WriteLine("]");
+            }
+            */
+
+
 
             // Suspends console after problems are run
             Console.Read();

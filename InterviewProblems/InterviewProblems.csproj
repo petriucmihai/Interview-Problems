@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\Problems\CombinationSum.cs" />
     <Compile Include="Arrays\Problems\KClosestPointsToOrigin.cs" />
     <Compile Include="Arrays\Problems\ArrayElementsAreUnique.cs" />
     <Compile Include="Arrays\Problems\BuyStock.cs" />

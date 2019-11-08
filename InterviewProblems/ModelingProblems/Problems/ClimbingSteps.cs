@@ -103,7 +103,7 @@ namespace InterviewProblems.ModelingProblems.Problems
         }
 
         // Solution with memoization
-        public int ClimbStairs(int n)
+        public int ClimbStairsMemo(int n)
         {
             int[] memo = new int[n + 1];
             return Climb(0, n, memo);
