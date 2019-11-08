@@ -75,6 +75,62 @@ namespace InterviewProblems.TreesAndGraphs.Problems
             }
         }
 
-        
+        public static TreeNode LCAFromPaths(TreeNode node, TreeNode p, TreeNode q)
+        {
+            List<TreeNode> pathP = new List<TreeNode>();
+            bool pathToP = FindPath(node, p, pathP);
+
+            List<TreeNode> pathQ = new List<TreeNode>();
+            bool pathToQ = FindPath(node, q, pathQ);
+
+            if (!pathToP || !pathToQ)
+            {
+                return null;
+            }
+            else
+            {
+                int i = 0;
+                for (i = 0; i < pathP.Count() && i < pathQ.Count(); i++)
+                {
+                    if (pathP[i] != pathQ[i])
+                        break;
+                }
+
+                return pathP[i - 1];
+            }
+
+
+        }
+
+        public static bool FindPath(TreeNode root, TreeNode target, List<TreeNode> path)
+        {
+            if (root == null)
+            {
+                return false;
+            }
+
+            path.Add(root);
+
+            if (root == target)
+            {
+                return true;
+            }
+
+            if (root.left != null && FindPath(root.left, target, path))
+            {
+                return true;
+            }
+
+            if (root.right != null && FindPath(root.right, target, path))
+            {
+                return true;
+            }
+
+            path.RemoveAt(path.Count() - 1);
+            return false;
+        }
+
+
+
     }
 }
