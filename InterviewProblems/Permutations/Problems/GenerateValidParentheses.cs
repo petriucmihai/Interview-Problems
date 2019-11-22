@@ -82,5 +82,61 @@ namespace InterviewProblems.Permutations.Problems
                 Backtrack(result, cur + ")", open, close + 1, max);
             }
         }
+
+        // General Backtracking format
+        public static List<string> GenerateValidParenthesesGeneral(int numPairs)
+        {
+            List<string> result = new List<string>();
+            Generate(numPairs, result, "");
+            return result;
+        }
+
+        private static void Generate(int numPairs, List<string> result, string current)
+        {
+            
+
+            if (IsValidParentheses(current, numPairs))
+            {
+                if (current.Length == numPairs * 2)
+                {
+                    result.Add(current);
+                }
+
+                Generate(numPairs, result, current + "(");
+                Generate(numPairs, result, current + ")");
+            }
+        }
+
+        private static bool IsValidParentheses(string paren, int numPairs)
+        {
+            Stack<char> parenStack = new Stack<char>();
+            int leftCount = 0;
+            int rightCount = 0;
+            for (int i = 0; i < paren.Length; i++)
+            {
+                if (paren[i] == '(')
+                {
+                    leftCount++;
+                    parenStack.Push('(');
+                }
+                else
+                {
+                    rightCount++;
+                    if (parenStack.Count() == 0)
+                    {
+                        return false;
+                    }
+                    else if (parenStack.Peek() == '(')
+                    {
+                        parenStack.Pop();
+                    }
+                }
+                if (leftCount > numPairs || leftCount > numPairs)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }
