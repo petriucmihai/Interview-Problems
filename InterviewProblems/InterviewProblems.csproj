@@ -127,6 +127,7 @@
     <Compile Include="TreesAndGraphs\Problems\LowestCommonAncestor.cs" />
     <Compile Include="TreesAndGraphs\Problems\MergeTrees.cs" />
     <Compile Include="TreesAndGraphs\Problems\RangeSumBST.cs" />
+    <Compile Include="TreesAndGraphs\Problems\RightSideView.cs" />
     <Compile Include="TreesAndGraphs\Problems\TraversalWithStack.cs" />
     <Compile Include="TreesAndGraphs\Problems\UnivaluedTree.cs" />
     <Compile Include="TreesAndGraphs\Problems\ValidateBST.cs" />
