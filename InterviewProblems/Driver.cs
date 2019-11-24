@@ -15,6 +15,7 @@ using InterviewProblems.SearchingAndSorting.Problems;
 using InterviewProblems.SearchingAndSorting.SortingAlgorithms;
 using InterviewProblems.Strings.Problems;
 using InterviewProblems.SearchingAndSorting.SearchAlgorithms;
+using InterviewProblems.ModelingProblems.Problems;
 
 namespace InterviewProblems
 {
@@ -238,6 +239,18 @@ namespace InterviewProblems
                 Console.WriteLine("]");
             }
             */
+
+            // Pour Water
+            int[] arr = new int[] { 1, 2, 3, 4, 3, 2, 1, 2, 3, 4, 3, 2, 1 };
+            FallingWater.PourWater(arr, 10, 2);
+            Console.Write("[ ");
+            foreach (int num in arr)
+            {
+                Console.Write(num + ", ");
+            }
+            Console.WriteLine("]");
+
+
 
             // Suspends console after problems are run
             Console.Read();
