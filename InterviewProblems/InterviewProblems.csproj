@@ -59,6 +59,7 @@
     <Compile Include="Arrays\Problems\SubarraySumEqualsK.cs" />
     <Compile Include="Arrays\Problems\ThreeSum.cs" />
     <Compile Include="Arrays\Problems\TwoSum.cs" />
+    <Compile Include="BitManipulation\Problems\AddBinary.cs" />
     <Compile Include="BitManipulation\Problems\DecimalToBinary.cs" />
     <Compile Include="BitManipulation\Problems\HammingDistance.cs" />
     <Compile Include="BitManipulation\Problems\InsertBits.cs" />
