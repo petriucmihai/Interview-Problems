@@ -92,6 +92,7 @@
     <Compile Include="Permutations\Problems\GenerateValidParentheses.cs" />
     <Compile Include="Permutations\Problems\PhoneKeys.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchingAndSorting\Problems\FrequencySort.cs" />
     <Compile Include="SearchingAndSorting\Problems\MergeSortedArrays.cs" />
     <Compile Include="SearchingAndSorting\Problems\SearchRotatedArray.cs" />
     <Compile Include="SearchingAndSorting\SearchAlgorithms\BinarySearch.cs" />
