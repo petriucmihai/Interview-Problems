@@ -253,12 +253,6 @@ namespace InterviewProblems
             Console.WriteLine("]");
             */
 
-            // Add Binary Strings
-            string a = "11";
-            string b = "1";
-
-            Console.WriteLine(AddBinary.AddBinaryAsString(a, b));
-
             // Suspends console after problems are run
             Console.Read();
         }
