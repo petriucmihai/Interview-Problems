@@ -76,6 +76,7 @@
     <Compile Include="LinkedLists\UtilityClasses\DLNode.cs" />
     <Compile Include="LinkedLists\UtilityClasses\Node.cs" />
     <Compile Include="ModelingProblems\Problems\8Queens.cs" />
+    <Compile Include="ModelingProblems\Problems\CellsArray.cs" />
     <Compile Include="ModelingProblems\Problems\ClimbingSteps.cs" />
     <Compile Include="ModelingProblems\Problems\FallingWater.cs" />
     <Compile Include="ModelingProblems\Problems\Flowerbed.cs" />
