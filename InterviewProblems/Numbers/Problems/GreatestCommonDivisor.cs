@@ -16,7 +16,7 @@ namespace InterviewProblems.Numbers.Problems
             return GCD(b % a, a);
         }
 
-        static int MultipleValueGCD(int[] arr, int n)
+        public static int MultipleValueGCD(int[] arr, int n)
         {
             int result = arr[0];
             for (int i = 1; i < n; i++)
