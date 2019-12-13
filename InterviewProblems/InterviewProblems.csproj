@@ -86,6 +86,7 @@
     <Compile Include="ModelingProblems\Problems\RobbingHouses.cs" />
     <Compile Include="ModelingProblems\Problems\TicTacToe.cs" />
     <Compile Include="ModelingProblems\Problems\TrapRainWater.cs" />
+    <Compile Include="Numbers\Problems\GreatestCommonDivisor.cs" />
     <Compile Include="Numbers\Problems\HappyNumber.cs" />
     <Compile Include="Numbers\Problems\ReverseInteger.cs" />
     <Compile Include="Permutations\Problems\GeneratePermutationsOfArray.cs" />
