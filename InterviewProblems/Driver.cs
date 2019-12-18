@@ -253,6 +253,28 @@ namespace InterviewProblems
             Console.WriteLine("]");
             */
 
+            // Rotting oranges
+            int[][] grid = new int[1][];
+            grid[0] = new int[] { 0 };
+            /*
+            grid[0] = new int[] { 2, 1, 1 };
+            grid[1] = new int[] { 1, 1, 0 };
+            grid[2] = new int[] { 0, 1, 1 };
+            */
+
+            Console.WriteLine("String grid: ");
+            foreach (int[] row in grid)
+            {
+                Console.Write("[ ");
+                foreach (int num in row)
+                {
+                    Console.Write(num + ", ");
+                }
+                Console.WriteLine("]");
+            }
+
+            Console.WriteLine(RottenOranges.OrangesRotting(grid) + " minutes until all rotten.");
+
             // Suspends console after problems are run
             Console.Read();
         }

@@ -85,6 +85,7 @@
     <Compile Include="ModelingProblems\Problems\MeetingRooms.cs" />
     <Compile Include="ModelingProblems\Problems\NumberOfIslands.cs" />
     <Compile Include="ModelingProblems\Problems\RobbingHouses.cs" />
+    <Compile Include="ModelingProblems\Problems\RottenOranges.cs" />
     <Compile Include="ModelingProblems\Problems\TicTacToe.cs" />
     <Compile Include="ModelingProblems\Problems\TrapRainWater.cs" />
     <Compile Include="Numbers\Problems\GreatestCommonDivisor.cs" />
