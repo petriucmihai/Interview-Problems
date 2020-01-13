@@ -32,7 +32,7 @@ namespace InterviewProblems.Strings.Problems
         */
         public static bool WordPattern(string pattern, string str)
         {
-            string[] words = str.Split(" ");
+            string[] words = str.Split(' ');
 
             if (pattern.Length != words.Length)
             {
