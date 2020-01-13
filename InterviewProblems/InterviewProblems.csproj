@@ -81,6 +81,7 @@
     <Compile Include="ModelingProblems\Problems\FallingWater.cs" />
     <Compile Include="ModelingProblems\Problems\Flowerbed.cs" />
     <Compile Include="ModelingProblems\Problems\GameOfLife.cs" />
+    <Compile Include="ModelingProblems\Problems\GasStations.cs" />
     <Compile Include="ModelingProblems\Problems\MaxNetwork.cs" />
     <Compile Include="ModelingProblems\Problems\MeetingRooms.cs" />
     <Compile Include="ModelingProblems\Problems\NumberOfIslands.cs" />
