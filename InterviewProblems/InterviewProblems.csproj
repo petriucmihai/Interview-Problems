@@ -110,6 +110,7 @@
     <Compile Include="StacksAndQueues\Problems\StackUsingQueue.cs" />
     <Compile Include="Strings\Problems\ArePermutations.cs" />
     <Compile Include="Strings\Problems\CountAndSay.cs" />
+    <Compile Include="Strings\Problems\FollowsPattern.cs" />
     <Compile Include="Strings\Problems\GroupAnagrams.cs" />
     <Compile Include="Strings\Problems\ReverseString.cs" />
     <Compile Include="Strings\Problems\ReverseWordsInString.cs" />
