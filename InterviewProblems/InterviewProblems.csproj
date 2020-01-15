@@ -51,6 +51,7 @@
     <Compile Include="Arrays\Problems\FirstNonRepeatingElement.cs" />
     <Compile Include="Arrays\Problems\MaximumSubarray.cs" />
     <Compile Include="Arrays\Problems\MergeOverlappingIntervals.cs" />
+    <Compile Include="Arrays\Problems\MostFrequentKElements.cs" />
     <Compile Include="Arrays\Problems\ProductOfArrayWithoutSelf.cs" />
     <Compile Include="Arrays\Problems\RearrangePositivesAndNegatives.cs" />
     <Compile Include="Arrays\Problems\RotateSquareMatrix.cs" />
@@ -114,6 +115,7 @@
     <Compile Include="Strings\Problems\CountAndSay.cs" />
     <Compile Include="Strings\Problems\FollowsPattern.cs" />
     <Compile Include="Strings\Problems\GroupAnagrams.cs" />
+    <Compile Include="Strings\Problems\LongestPalindromicSubstring.cs" />
     <Compile Include="Strings\Problems\ReverseString.cs" />
     <Compile Include="Strings\Problems\ReverseWordsInString.cs" />
     <Compile Include="Strings\Problems\ReverseWordsInString3.cs" />
