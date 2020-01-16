@@ -32,7 +32,7 @@ namespace InterviewProblems.ModelingProblems.Problems
 
                 if (connections.ContainsKey(cityB))
                 {
-                    connections[cityA].Add(cityA);
+                    connections[cityB].Add(cityA);
                 }
                 else
                 {

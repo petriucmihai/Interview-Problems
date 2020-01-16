@@ -124,6 +124,7 @@
     <Compile Include="Strings\Problems\SubstringInAString.cs" />
     <Compile Include="Strings\Problems\URLifyString.cs" />
     <Compile Include="Strings\Problems\ValidPalindrome.cs" />
+    <Compile Include="Strings\Problems\WordLadder.cs" />
     <Compile Include="TreesAndGraphs\Problems\BinaryTreeZigZagTraversal.cs" />
     <Compile Include="TreesAndGraphs\Problems\BottomUpLevelOrderTraversal.cs" />
     <Compile Include="TreesAndGraphs\Problems\BuildTreeFromArray.cs" />
