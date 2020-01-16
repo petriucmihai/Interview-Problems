@@ -56,6 +56,7 @@
     <Compile Include="Arrays\Problems\RearrangePositivesAndNegatives.cs" />
     <Compile Include="Arrays\Problems\RotateSquareMatrix.cs" />
     <Compile Include="Arrays\Problems\SecondSmallestElement.cs" />
+    <Compile Include="Arrays\Problems\SlidingWindow.cs" />
     <Compile Include="Arrays\Problems\SpiralMatrix.cs" />
     <Compile Include="Arrays\Problems\SubarraySumEqualsK.cs" />
     <Compile Include="Arrays\Problems\ThreeSum.cs" />
